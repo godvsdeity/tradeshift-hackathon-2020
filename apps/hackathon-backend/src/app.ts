@@ -7,9 +7,7 @@ import { getRepository } from "typeorm";
 import { createHash } from "crypto";
 import {
   generateRegistrationChallenge,
-  parseLoginRequest,
   generateLoginChallenge,
-  verifyAuthenticatorAssertion,
 } from "@webauthn/server";
 import WebAuthn from "webauthn";
 import base64url from "base64url";
