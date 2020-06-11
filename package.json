@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "tradeshift-hackathon-2020",
+  "version": "0.1.0",
+  "author": "Alex Pasare",
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
+    "nohoist": []
+  }
+}

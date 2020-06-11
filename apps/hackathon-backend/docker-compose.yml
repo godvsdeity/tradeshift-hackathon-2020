@@ -1,0 +1,24 @@
+version: "3.1"
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=tradeshift
+      - POSTGRES_PASSWORD=tradeshift
+      - POSTGRES_DB=tradeshift
+    ports:
+      - 5432:5432
+    volumes:
+      - ./.docker/postgres/data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@tradeshift.com
+      PGADMIN_DEFAULT_PASSWORD: pgadmin
+    volumes:
+       - ./.docker/pgadmin:/root/.pgadmin
+    ports:
+      - 5050:80
+    restart: unless-stopped

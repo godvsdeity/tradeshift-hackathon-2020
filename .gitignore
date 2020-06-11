@@ -1,0 +1,29 @@
+# MacOS specifics
+.DS_Store
+
+# typescript build
+build
+tsconfig.tsbuildinfo
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# DynamoDb local
+.dynamodb
+
+# Docker
+.docker
+docker/*
+!docker/verdaccio
+docker/verdaccio/*
+!docker/verdaccio/config
+
+# Yarn
+yarn-error.log
+
+# typeorm
+ormconfig.js*
