@@ -7112,9 +7112,9 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 jsrsasign@^8.0.12:
-  version "8.0.16"
-  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.16.tgz#ca5db63dd8613624136e691f8ea68545612ace70"
-  integrity sha512-4yR8Bm76RKlh+qYtS7m7F1wjKB2A0R0e0VxyMy10PJNEpb/UiXKS40QmU36nuUT7Ea4/cbv4HXu1Z9c91nwLow==
+  version "8.0.24"
+  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.24.tgz#fc26bac45494caac3dd8f69c1f95847c4bda6c83"
+  integrity sha512-u45jAyusqUpyGbFc2IbHoeE4rSkoBWQgLe/w99temHenX+GyCz4nflU5sjK7ajU1ffZTezl6le7u43Yjr/lkQg==
 
 jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
   version "2.3.0"
